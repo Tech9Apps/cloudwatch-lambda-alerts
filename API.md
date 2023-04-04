@@ -2,37 +2,37 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### LambdaStack <a name="LambdaStack" id="cloudwatch-lambda-alerts.LambdaStack"></a>
+### CloudWatchLambdaAlerts <a name="CloudWatchLambdaAlerts" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts"></a>
 
-#### Initializers <a name="Initializers" id="cloudwatch-lambda-alerts.LambdaStack.Initializer"></a>
+#### Initializers <a name="Initializers" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer"></a>
 
 ```typescript
-import { LambdaStack } from 'cloudwatch-lambda-alerts'
+import { CloudWatchLambdaAlerts } from 'cloudwatch-lambda-alerts'
 
-new LambdaStack(scope: Construct, id: string, props: ILambdaStackProps)
+new CloudWatchLambdaAlerts(scope: Construct, id: string, props: ILambdaStackProps)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.props">props</a></code> | <code><a href="#cloudwatch-lambda-alerts.ILambdaStackProps">ILambdaStackProps</a></code> | *No description.* |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.props">props</a></code> | <code><a href="#cloudwatch-lambda-alerts.ILambdaStackProps">ILambdaStackProps</a></code> | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="scope" id="cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="scope" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.scope"></a>
 
 - *Type:* constructs.Construct
 
 ---
 
-##### `id`<sup>Required</sup> <a name="id" id="cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="id" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-##### `props`<sup>Required</sup> <a name="props" id="cloudwatch-lambda-alerts.LambdaStack.Initializer.parameter.props"></a>
+##### `props`<sup>Required</sup> <a name="props" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.Initializer.parameter.props"></a>
 
 - *Type:* <a href="#cloudwatch-lambda-alerts.ILambdaStackProps">ILambdaStackProps</a>
 
@@ -42,12 +42,12 @@ new LambdaStack(scope: Construct, id: string, props: ILambdaStackProps)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.addLambda">addLambda</a></code> | *No description.* |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.addLambda">addLambda</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="cloudwatch-lambda-alerts.LambdaStack.toString"></a>
+##### `toString` <a name="toString" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.toString"></a>
 
 ```typescript
 public toString(): string
@@ -55,13 +55,13 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addLambda` <a name="addLambda" id="cloudwatch-lambda-alerts.LambdaStack.addLambda"></a>
+##### `addLambda` <a name="addLambda" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.addLambda"></a>
 
 ```typescript
 public addLambda(__0: AddLambdaProps): void
 ```
 
-###### `__0`<sup>Required</sup> <a name="__0" id="cloudwatch-lambda-alerts.LambdaStack.addLambda.parameter.__0"></a>
+###### `__0`<sup>Required</sup> <a name="__0" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.addLambda.parameter.__0"></a>
 
 - *Type:* <a href="#cloudwatch-lambda-alerts.AddLambdaProps">AddLambdaProps</a>
 
@@ -71,21 +71,21 @@ public addLambda(__0: AddLambdaProps): void
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 
 ---
 
-##### ~~`isConstruct`~~ <a name="isConstruct" id="cloudwatch-lambda-alerts.LambdaStack.isConstruct"></a>
+##### ~~`isConstruct`~~ <a name="isConstruct" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.isConstruct"></a>
 
 ```typescript
-import { LambdaStack } from 'cloudwatch-lambda-alerts'
+import { CloudWatchLambdaAlerts } from 'cloudwatch-lambda-alerts'
 
-LambdaStack.isConstruct(x: any)
+CloudWatchLambdaAlerts.isConstruct(x: any)
 ```
 
 Checks if `x` is a construct.
 
-###### `x`<sup>Required</sup> <a name="x" id="cloudwatch-lambda-alerts.LambdaStack.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -97,11 +97,11 @@ Any object.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#cloudwatch-lambda-alerts.LambdaStack.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="cloudwatch-lambda-alerts.LambdaStack.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="cloudwatch-lambda-alerts.CloudWatchLambdaAlerts.property.node"></a>
 
 ```typescript
 public readonly node: Node;
