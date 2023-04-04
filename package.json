@@ -31,7 +31,7 @@
   "author": {
     "name": "Durgaprasad Budhwani",
     "email": "durgaprasad.budhwani@gmail.com",
-    "organization": false
+    "organization": true
   },
   "devDependencies": {
     "@types/jest": "^27",
