@@ -18,7 +18,7 @@ export interface AddLambdaProps {
   readonly invocations: number;
 }
 
-export class LambdaStack extends Construct {
+export class CloudWatchLambdaAlerts extends Construct {
 
   // @ts-ignore
   protected readonly lambdaDashboard: Dashboard;
